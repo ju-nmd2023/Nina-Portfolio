@@ -1,0 +1,44 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: grid;
+   grid-template-areas: 
+   "header header header"
+   "main aside aside"
+   "footer aside aside";
+   gap: 2px;
+}
+    
+header{
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+    grid-area: header;
+    font-size: 35px;
+}
+
+main{
+    color:darkgreen;
+   border: solid 2px darkgreen;
+    grid-area: main;
+}
+
+aside{
+    color: darkgreen;
+    border: solid 2px darkgreen;
+    grid-area: aside;
+}
+
+footer{
+color: darkgreen;
+border: solid 2px darkgreen;
+grid-area: footer;
+}
+
+p{
+   display: inline;
+    background-color: crimson;
+    color: white;
+    border: solid crimson;
+}
