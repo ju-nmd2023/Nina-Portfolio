@@ -41,38 +41,34 @@ li{
 
 }
 
-/* Main*/
-
-.main-img {
-    width: 100vw;
-    padding-top: 10px;
+/* main*/
+main {
+    align-content: center;
 }
 
-h1{
-    color: rgb(9, 79, 31)
+.stylization-title {
+    text-align: center;
+    color: rgb(4, 110, 32);
+    font-size: 0,8rem;
+    font-weight: 1rem;
+    padding-top: 20px;
 }
 
-h1 h2{
-    padding-left: 50vw;
+.stylization-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 50px;
+    gap: 20px;
+    align-content: center;
 }
 
-
-
-/* footer*/
-
-
-footer{
-    border: 2px solid rgb(9, 79, 31)
+p{
+  text-align: center;
+  font-size: 0,8rem;
+  padding-left: 2rem;
+  padding-top: 5px;
 }
 
-
-
-.p3{
-    color: beige;
-    font-size: 15px;
-    padding-top: 10%;
-}
-
-div{
-    background-color: rgb(9, 79, 31)
+.melanie-image{
+    width: 70%;
 }

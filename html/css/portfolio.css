@@ -4,25 +4,22 @@
 
 /* Header*/
 
-#logo{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 100px;
-    font-weight: 1,2rem;
-    display: inline;
-    padding: 50%;
-    color: rgb(4, 110, 32);
-    
+header{
+    text-align: center;
 }
 
-h1{
-    color: brown;
+#logo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: 1,2rem;
+    display: inline;
+    color: rgb(4, 110, 32);  
 }
 
 ul {
+    display: inline;
     list-style: none;
     color: brown;
-    padding-left: 35%;
-    padding-bottom: 0%;
 }
 
 a{
@@ -30,24 +27,72 @@ a{
 }
 
 li{
-    margin-right: 160px;
-    font-size: 38px;
-    display:inline
+    margin-right: 2rem;
+    font-size: 1rem;
+    display:inline;
 }
+
 
 /* main*/
-.rw1-spread {
+main{
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    color: rgb(4, 110, 32);
+    font-size: 0,8rem;
+    font-weight: 1rem;
+    padding-top: 2
+    0px;
+}
+
+.melanie-kiwipom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.melanie-image{
+    width: 60%;
+
+}
+
+.melanie-link{
+    color: rgb(4, 110, 32);
+    font-size: 0,8rem;
+    font-weight: 1rem;
+    padding-top: 2
+} 
+
+.kiwipom-image {
     width: 30%;
 }
 
-.rw2-spread{
-    width: 30%;
+
+.owl-comic{
+    width: 50%;
+    padding-top: 5px;
+    padding-left: 25vw;
 }
 
-.melanie-img{
-    padding-left: 20%;
+.rw-spread{
+    width: 95%;
 }
 
-.kiwipom {
-    padding-left: 80%;
+.lorde-magazine {
+    width: 95%;
+}
+
+.pink-magazine {
+    width: 95%;
+}
+
+@media screen and (min-width:600px) {  
+     .spreads{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 }

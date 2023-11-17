@@ -2,20 +2,43 @@
     font-family: 'Outfit', sans-serif;
 }
 
-body {
-    display: grid;
-   grid-template-areas: 
-   "header header header"
-   "main aside aside"
-   "footer aside aside";
-   gap: 2px;
-}
-    
+/* Header*/
+
 header{
-    background-color: darkgreen;
-    color: rgb(255, 255, 255);
-    grid-area: header;
-    font-size: 35px;
+    text-align: center;
+}
+
+#logo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: 1,2rem;
+    display: inline;
+    color: rgb(4, 110, 32);  
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    color: brown;
+}
+
+
+a{
+    color: rgb(73, 31, 11);
+}
+
+li{
+    margin-right: 2rem;
+    font-size: 1rem;
+    display:inline;
+}
+
+@media screen and (min-width: 400px) {
+    header {
+      flex-direction: column;
+      align-items: start;
+    }
+
 }
 
 main{
@@ -23,22 +46,17 @@ main{
    border: solid 2px darkgreen;
     grid-area: main;
 }
-
-aside{
-    color: darkgreen;
-    border: solid 2px darkgreen;
-    grid-area: aside;
+body{
+    padding-top: 2px
 }
 
-footer{
-color: darkgreen;
-border: solid 2px darkgreen;
-grid-area: footer;
+form{
+    padding-top: 10px;
 }
 
-p{
-   display: inline;
-    background-color: crimson;
-    color: white;
-    border: solid crimson;
+.submit{
+    background-color: red;
+    display: inline;
+    color: blanchedalmond;
+    border: red;
 }
